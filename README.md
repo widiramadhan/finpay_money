@@ -25,7 +25,7 @@ dependencies:
 Alternatively, your editor might support flutter pub get. Check the docs for your editor to learn more.
 
 Open your build.gradle in android/build.gradle
-Add a line in repositories like this
+Add it in your root build.gradle at the end of repositories:
 
 ```bash
 allprojects {
