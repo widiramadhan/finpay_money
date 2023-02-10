@@ -1,6 +1,6 @@
 name: finpay_money
 description: Finpay Money SDK.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/widiramadhan/finpay_money
 
 environment:

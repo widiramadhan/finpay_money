@@ -293,7 +293,7 @@ class FinpayMoney {
     );
   }
 
-  Future showPpobFinpayUIBuilder({
+  Future showPpobFinpay({
     required String transNumber,
     required String merchantUsername,
     required String merchantPassword,
