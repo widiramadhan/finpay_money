@@ -1,6 +1,6 @@
 # finpay_money
 
-[![Pub Package](https://img.shields.io/pub/v/encrypt.svg)](https://pub.dartlang.org/packages/finpay_money)
+[![Pub Package](https://img.shields.io/pub/v/finpay_money.svg)](https://pub.dartlang.org/packages/finpay_money)
 
 Finpay hadir sebagai solusi transaksi berbasis digital yang praktis dan mudah digunakan. Dengan Finpay, Anda bebas memilih berbagai cara transaksi dimanapun dan kapanpun.
 
