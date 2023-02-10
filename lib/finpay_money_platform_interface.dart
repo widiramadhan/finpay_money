@@ -286,9 +286,12 @@ abstract class FinpayMoneyPlatform extends PlatformInterface {
     required String merchantPassword,
     required String merchantSecretKey,
     required String custPhoneNumber,
-    required String custName,
-    required Function onSuccess
+    required String custName
   }) {
     throw UnimplementedError('connectAccount() has not been implemented');
+  }
+
+  Future logout() {
+    throw UnimplementedError('logout() has not been implemented');
   }
 }

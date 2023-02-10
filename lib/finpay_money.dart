@@ -389,8 +389,7 @@ class FinpayMoney {
     required String merchantPassword,
     required String merchantSecretKey,
     required String custPhoneNumber,
-    required String custName,
-    required Function onSuccess,
+    required String custName
   }) {
     return FinpayMoneyPlatform.instance.connectAccount(
       transNumber: transNumber,
@@ -398,8 +397,11 @@ class FinpayMoney {
       merchantPassword: merchantPassword,
       merchantSecretKey: merchantSecretKey,
       custPhoneNumber: custPhoneNumber,
-      custName: custName,
-      onSuccess: onSuccess
+      custName: custName
     );
+  }
+
+  Future logout() {
+    return FinpayMoneyPlatform.instance.logout();
   }
 }

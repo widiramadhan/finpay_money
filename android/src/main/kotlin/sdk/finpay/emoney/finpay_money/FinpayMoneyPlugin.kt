@@ -371,7 +371,16 @@ class FinpayMoneyPlugin: FlutterPlugin, MethodCallHandler, ActivityAware {
         credential(merchantUsername.toString(), merchantPassword.toString(), merchantSecretKey.toString(), custPhoneNumber.toString(), custName.toString()),
         null,
         {
-          onSuccess
+
+        }
+      )
+    } else if(call.method == "logout") {
+      val hashMap = call.arguments as HashMap<*,*>
+      val onSuccess = hashMap["onSuccess"]
+      FinpaySDKUI.logout(
+        this.activity,
+        {
+
         }
       )
     } else {

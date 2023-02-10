@@ -26,12 +26,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('topupUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -49,12 +49,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('transferUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -72,12 +72,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('historyTransactionUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -95,12 +95,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('walletUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -118,12 +118,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('qrisUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -141,12 +141,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('upgradeAccountUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -164,12 +164,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('pulsaDataUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -187,12 +187,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('pascaBayarUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -210,12 +210,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('alfamartUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -233,12 +233,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('bpjsUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -256,12 +256,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('plnUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -279,12 +279,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('telkomUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -302,12 +302,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('indihomeUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -325,12 +325,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('voucherDealsUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -348,12 +348,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('voucherTvCableUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -371,12 +371,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('pdamUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -394,12 +394,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('internetTvCableUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -417,12 +417,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('finpayUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -440,12 +440,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('insuranceUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -463,12 +463,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('telkomselUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -486,12 +486,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('pegadaianUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -509,12 +509,12 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
   }) async {
     try{
       await methodChannel.invokeMethod('revenueUIBuilder', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
     } on PlatformException catch(e){
       debugPrint(e.message);
@@ -528,19 +528,26 @@ class MethodChannelFinpayMoney extends FinpayMoneyPlatform {
     required String merchantPassword,
     required String merchantSecretKey,
     required String custPhoneNumber,
-    required String custName,
-    required Function onSuccess,
+    required String custName
   }) async {
     try{
       await methodChannel.invokeMethod('connectAccount', {
-        transNumber: transNumber,
-        merchantUsername: merchantUsername,
-        merchantPassword: merchantPassword,
-        merchantSecretKey: merchantSecretKey,
-        custPhoneNumber: custPhoneNumber,
-        custName: custName,
-        onSuccess: onSuccess
+        'transNumber': transNumber,
+        'merchantUsername': merchantUsername,
+        'merchantPassword': merchantPassword,
+        'merchantSecretKey': merchantSecretKey,
+        'custPhoneNumber': custPhoneNumber,
+        'custName': custName
       });
+    } on PlatformException catch(e){
+      debugPrint(e.message);
+    }
+  }
+
+  @override
+  Future logout() async {
+    try{
+      await methodChannel.invokeMethod('logout');
     } on PlatformException catch(e){
       debugPrint(e.message);
     }

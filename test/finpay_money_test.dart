@@ -24,7 +24,7 @@ class MockFinpayMoneyPlatform
   }
 
   @override
-  Future connectAccount({required String transNumber, required String merchantUsername, required String merchantPassword, required String merchantSecretKey, required String custPhoneNumber, required String custName, required Function onSuccess}) {
+  Future connectAccount({required String transNumber, required String merchantUsername, required String merchantPassword, required String merchantSecretKey, required String custPhoneNumber, required String custName}) {
     // TODO: implement connectAccount
     throw UnimplementedError();
   }
@@ -152,6 +152,12 @@ class MockFinpayMoneyPlatform
   @override
   Future walletUIBuilder({required String transNumber, required String merchantUsername, required String merchantPassword, required String merchantSecretKey, required String custPhoneNumber, required String custName}) {
     // TODO: implement walletUIBuilder
+    throw UnimplementedError();
+  }
+
+  @override
+  Future logout() {
+    // TODO: implement logout
     throw UnimplementedError();
   }
 }
